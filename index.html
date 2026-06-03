@@ -185,31 +185,15 @@
   <p class="footer">made with love · links may be affiliate links</p>
 </div>
 
-<script>
-function handleSignup(btn) {
-  const input = btn.previousElementSibling;
-  if (!input.value || !input.value.includes("@")) { input.style.borderColor="#0A0A80"; input.focus(); return; }
-  btn.textContent = "✓ Done!"; btn.style.background = "#1a7a50";
-  input.value = ""; input.placeholder = "you're on the list!";
-  setTimeout(() => { btn.textContent = "Subscribe"; btn.style.background = ""; input.placeholder = "your@email.com"; }, 3000);
-}
-</script>
- <!-- NEWSLETTER SIGNUP -->
-<div style="
-  width: 100%;
-  max-width: 430px;
-  margin: 20px auto 0;
-  padding: 28px 24px;
-  background: #EBEBEB;
-  border-radius: 16px;
-  text-align: center;
-  font-family: Georgia, serif;
-">
-  <p style="font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #0B1F4B; margin-bottom: 8px;">✦ Free Download ✦</p>
-  <h2 style="font-size: 20px; color: #0B1F4B; margin-bottom: 8px; font-weight: 700;">Hot Girl Summer Glow Up Guide</h2>
-  <p style="font-size: 13px; color: #555; font-style: italic; margin-bottom: 20px; line-height: 1.6;">Your 7-day skin, body & mindset reset —<br>free when you join the newsletter.</p>
+<!-- NEWSLETTER SIGNUP -->
+<div class="card" style="margin-top: 16px; text-align: center;">
+  <p style="font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #0A0A70; margin-bottom: 8px; font-family: 'DM Sans', sans-serif; font-weight: 600;">✦ Free Download ✦</p>
+  <h2 style="font-size: 20px; color: #0A0A70; margin-bottom: 8px; font-weight: 700; font-family: 'DM Sans', sans-serif;">Hot Girl Summer Glow Up Guide</h2>
+  <p style="font-size: 13px; color: #666; margin-bottom: 20px; line-height: 1.6; font-family: 'DM Sans', sans-serif;">Your 7-day skin, body & mindset reset —<br>free when you join the newsletter.</p>
 
 <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="92310ecd-8530-4c8b-a56f-3a2925aa89dd"></script>
+
+</div>
 
 </div>
 </body>
